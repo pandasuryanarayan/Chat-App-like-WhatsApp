@@ -6,15 +6,12 @@ if (!isset($_SESSION['user_id'])) {
     exit();
 } else {
     /*
-    $host = 'sql12.freemysqlhosting.net:3306';
-    $username = 'sql12664995';
-    $password = 'mkIpwmbBAz';
-    $database = 'sql12664995';
+      You can use own remote MySQL Server also
     */
     $host = 'localhost:3306';
     $username = 'root';
     $password = '';
-    $database = 'cn_project';
+    $database = 'chatapp';
 
     $conn = new mysqli($host, $username, $password, $database);
 
