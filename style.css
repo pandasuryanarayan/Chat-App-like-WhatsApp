@@ -1,0 +1,99 @@
+/* LOGIN */
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+header{
+    color: #e7f553;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 1rem;
+}
+#sd1{
+    padding: 5px;
+    font-size: 2rem;
+}
+footer{
+    font-size: 1.5rem;
+    padding-top: 3rem;
+}
+#sf1{
+    font-size: 1.5rem;
+    padding: 15px;
+    background-color: whitesmoke;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    border-radius: 20px;
+}
+.login-signup{
+    background-color: yellowgreen;
+    width: 200px;
+    height: 35px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.login-signup:hover{
+    background-color: #f58822;
+}
+.form-class{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    font-size: 1.3rem;
+}
+.form-class:hover,
+.form-class:focus {
+    background-color: #cbcdd6;
+}
+
+.label-class{
+    font-size: 25px;
+    position: relative;
+}
+form p,a{
+    font-size: 23px;
+}
+.password-container {
+  position: relative;
+  display: inline-block;
+}
+
+#passwordInput {
+  padding-right: 30px;
+}
+
+#togglePassword {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* SIGN UP */
+
+#sf2{
+    font-size: 1.5rem;
+    padding: 15px;
+    padding-bottom: 0.5px;
+    background-color: whitesmoke;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    border-radius: 20px;
+}
+#signup-footer{
+    font-size: 1.5rem;
+    padding-top: 2px;
+}
+
+#moNO::-webkit-outer-spin-button,
+#moNO::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

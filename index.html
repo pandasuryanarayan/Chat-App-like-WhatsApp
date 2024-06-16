@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title> SIGN IN </title>
+        <link rel="stylesheet" href="style2.css">
+        <script type="text/javascript" src="index.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor="#a086fc" align="center">
+        <header> Speedy </header>
+        <section>
+            <div id="sd1"> Chat with Anyone with <em> HASSLE </em> free </div>
+            <div>
+                <form id="sf1" method="post" action="signin.php">
+                    <label class="label-class"> Mobile Number </label><br>
+                    <input name="signin-MoNo" type="number" class="form-class" id="moNO" placeholder="Enter number" required/><br>
+                    <label class="label-class"> Password </label><br>
+                    <div class="password-container">
+                        🔒<input name="signin-password" type="password" class="form-class" id="passwordInput" minlength="8" maxlength="15" placeholder="Enter password" required/>
+                        <button type="button" id="togglePassword" onclick="passCheck()">👁️</button>
+                    </div>
+                    <p> By login, you agree to our <a href="#"> Terms and Conditions </a> and 
+                        <a href="#"> Cookie Policy </a></p>
+                    <input type="submit" value="LOGIN" class="login-signup"/>
+                    <p> --------OR-------- </p>
+                    <p> Not have a SPEEDY account? <a href="signup.html"> Sign Up</a></p>
+                </form>
+            </div>
+        </section>
+        <footer> 
+            <p><em> SPEEDY </em> by SURYANARAYAN PANDA </p>
+            &copy; <i> All rights Reserved </i>
+        </footer>
+    </body>
+</html>

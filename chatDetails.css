@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+#chat-details {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#person-name {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#back {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#back:hover {
+    background-color: lightslategrey;
+}
+
+#peopleImg {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#chat-container {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse; /* Reverse the order */
+}
+
+#message-box {
+    align-self: flex-end; /* Align to the right side */
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+#message-input {
+    display: flex;
+    padding: 10px;
+    margin-top: auto;
+}
+
+#write {
+    flex: 1;
+    padding: 8px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    max-height: 200px; /* THIS WILL EFFECT ON JAVASCRIPT. THIS IS TAKEN FROM CHATGPT WEBPAGE DESCRIPTION USING DEVELOPER TOOLS */
+    overflow-y: hidden; /* THIS WILL EFFECT ON JAVASCRIPT. THIS IS TAKEN FROM CHATGPT WEBPAGE DESCRIPTION USING DEVELOPER TOOLS*/
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#sendbtn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#sendbtn:hover{
+    background-color: lightslategrey;
+}

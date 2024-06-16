@@ -1,0 +1,135 @@
+/* Common styles for both login and signup */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: auto;
+}
+
+header {
+    color: #e7f553;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+#sd1 {
+    padding: 5px;
+    font-size: 2rem;
+}
+
+footer {
+    font-size: 1.5rem;
+}
+
+.login-signup {
+    background-color: yellowgreen;
+    width: 200px;
+    height: 35px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.login-signup:hover {
+    background-color: #f58822;
+}
+
+.form-class {
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    font-size: 1.3rem;
+}
+
+.form-class:hover,
+.form-class:focus {
+    background-color: #cbcdd6;
+}
+
+.label-class {
+    font-size: 25px;
+    position: relative;
+}
+
+form p, a {
+    font-size: 23px;
+}
+
+.password-container {
+    position: relative;
+    display: inline-block;
+}
+
+#passwordInput {
+    padding-right: 30px;
+}
+
+#togglePassword {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Specific styles for login */
+#sf1 {
+    font-size: 1.5rem;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    max-width: 400px; /* Adjust max-width as needed */
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+}
+
+/* Specific styles for signup */
+#sf2 {
+    font-size: 1.5rem;
+    padding: 15px;
+    padding-bottom: 0.5px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    max-width: 400px; /* Adjust max-width as needed */
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+}
+
+#signup-footer {
+    font-size: 1.5rem;
+    padding-top: 2px;
+}
+
+#moNO::-webkit-outer-spin-button,
+#moNO::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens, e.g., tablets */
+    #sf1, #sf2 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust styles for even smaller screens, e.g., mobile phones */
+    #sf1, #sf2 {
+        width: 100%;
+    }
+}

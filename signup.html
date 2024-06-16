@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title> SIGN UP </title>
+        <link rel="stylesheet" href="style2.css">
+        <script type="text/javascript" src="signup.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor="#a086fc" align="center">
+        <header> Speedy </header>
+        <section>
+            <div id="sd1"> Chat with Anyone with <em> HASSLE </em> free </div>
+            <div>
+                <form id="sf2" method="post" action="signup.php">
+                    <label class="label-class"> Name </label><br>
+                    <input name="signup-name" type="text" class="form-class" id="name" placeholder="Enter name" required/><br>
+
+                    <label class="label-class"> Mobile Number </label><br>
+                    <input name="signup-MoNo" type="number" class="form-class" id="moNO" placeholder="Enter number" required/><br>
+
+                    <label class="label-class"> Password </label><br>
+                    <div class="password-container">
+                        🔒<input name="signup-password" type="password" class="form-class" id="passwordInput" minlength="8" maxlength="15" placeholder="Enter password" required/>
+                        <button type="button" id="togglePassword" onclick="passCheck()"/>👁️</button>
+                    </div>
+
+                    <p> By login, you agree to our <a href="#"> Terms and Conditions </a> and 
+                        <a href="#"> Cookie Policy </a></p>
+
+                    <input type="submit" value="SIGN UP" class="login-signup"/>
+                    <p> --------OR-------- </p>
+                    <p> Already have a SPEEDY account? <a href="index.html"> Login </a></p>
+                </form>
+            </div>
+        </section>
+        <footer id="signup-footer"> &copy; <i> All rights Reserved </i></footer>
+    </body>
+</html>
